@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
@@ -27,9 +28,14 @@ public class Level : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    public string tagName = "Pill";
+    private void Update()
     {
-        
+        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(tagName);
+       
+        if(taggedObjects.Length == 0)
+        {
+            SceneManager.LoadScene(0);
+        }
     }
 }

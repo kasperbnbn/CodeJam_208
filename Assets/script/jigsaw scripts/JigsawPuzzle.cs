@@ -36,6 +36,9 @@ public class JigsawPuzzle : MonoBehaviour
         if (allPiecesCorrectlyPlaced)
         {
             puzzleComplete = true;
+
+            SceneManager.LoadScene(0);
+
             Debug.Log("Puzzle complete!");
         }
     }

@@ -670,8 +670,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73b5527330791b44a5cc97c8e3f8d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 18, y: 9}
-  Offset: {x: 1.2, y: 0.55}
+  size: {x: 14, y: 6}
+  Offset: {x: 1.43, y: 0.9}
   PillPrefap: {fileID: 4993439143338381692, guid: b1ee36d270e63b548a94cea1f83bd40c, type: 3}
   gradient:
     serializedVersion: 2
@@ -702,6 +702,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
+  tagName: Pill
 --- !u!4 &2096440580
 Transform:
   m_ObjectHideFlags: 0
