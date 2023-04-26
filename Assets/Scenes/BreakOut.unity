@@ -564,7 +564,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 04a69f3f630f3e14e8e3cd6a22e64fa5, type: 3}
-  m_Color: {r: 1, g: 0.90676814, b: 0.9, a: 1}
+  m_Color: {r: 1, g: 0.645283, b: 0.8762381, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73b5527330791b44a5cc97c8e3f8d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 14, y: 6}
+  size: {x: 12, y: 6}
   Offset: {x: 1.43, y: 0.9}
   PillPrefap: {fileID: 4993439143338381692, guid: b1ee36d270e63b548a94cea1f83bd40c, type: 3}
   gradient:
