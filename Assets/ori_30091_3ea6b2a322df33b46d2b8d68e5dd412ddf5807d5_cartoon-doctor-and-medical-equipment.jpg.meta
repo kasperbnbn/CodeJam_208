@@ -1,0 +1,489 @@
+fileFormatVersion: 2
+guid: 6e580aa888f2b48688a41493020b8e97
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 514.6666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde7d279f22f44cf9abaa2d35331e142
+      internalID: 385340798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_1
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 514.6666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95c2c604a50741f5813523a9190f53a
+      internalID: 1224891046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_2
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 514.6666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dfe69edf6ce4459d83bbf2acd21e07f
+      internalID: -318146247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_3
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 514.6666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b718ae88c5d954702a3435b4d12032e8
+      internalID: 77093628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_4
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 514.6666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce07c6124d8e54d10a01787f682d150d
+      internalID: -31300338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 257.66666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c4e9e9d15dc4c3a90726e3d579cb23
+      internalID: 576717442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_6
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 257.66666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61a3fbe67e604f5b9b5cf6cda68328a
+      internalID: 1042879723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_7
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 257.66666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83365729bee6c49c58f7cb8ca1e6e697
+      internalID: -898676368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_8
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 257.66666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 829083a68ee2c400ca4b932a9153c634
+      internalID: -2132956859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_9
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 257.66666
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c527b934ad3304fb3a76ce1bf5f3b053
+      internalID: 1874089318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666565
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b72b4e1e85764b50bee6470899bc529
+      internalID: -1183302621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_11
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 0.6666565
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e7840e39b474e0a9c60a2a15ada0f8
+      internalID: 1402930224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_12
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 0.6666565
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13dce878dd4494bb091a349f6701b0
+      internalID: 346698584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_13
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0.6666565
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3402063219769405bafb6315a56eaaf5
+      internalID: 1047592587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_14
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0.6666565
+        width: 232
+        height: 257.33334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170fa92b0e9ee40f1825db4779b2c05a
+      internalID: 392220495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_10: -1183302621
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_6: 1042879723
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_12: 346698584
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_14: 392220495
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_3: 77093628
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_5: 576717442
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_8: -2132956859
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_11: 1402930224
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_0: 385340798
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_1: 1224891046
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_4: -31300338
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_13: 1047592587
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_7: -898676368
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_2: -318146247
+      ori_30091_3ea6b2a322df33b46d2b8d68e5dd412ddf5807d5_cartoon-doctor-and-medical-equipment_9: 1874089318
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
