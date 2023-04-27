@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
     Rigidbody2D rb;
     float dirX;
+    public float leftX = -12f;
+    public float rightX = 12F;
 
     // Start is called before the first frame update
     void Start() 
@@ -19,7 +21,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         dirX = Input.acceleration.x * speed;
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -12f, 12f), transform.position.y);
+        transform.position = new Vector2(Mathf.Clamp(transform.position.x, leftX, rightX), transform.position.y);
     }
 
     // Update is called once per frame
