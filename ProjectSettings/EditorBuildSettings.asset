@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/GameScene.unity
-    guid: 5b35918aa30da0242a00688795d888df
+    path: Assets/Scenes/MainMenu.unity
+    guid: e5c7f981451074a43a27d673370a2cb0
   - enabled: 1
     path: Assets/Scenes/BreakOut.unity
     guid: 2cda990e2423bbf4892e6590ba056729
@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Jigsaw.unity
     guid: 7e192bd7d63f64e109fc07165c32224e
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: e5c7f981451074a43a27d673370a2cb0
+    path: Assets/Scenes/GameScene.unity
+    guid: 5b35918aa30da0242a00688795d888df
   - enabled: 1
     path: Assets/Scenes/DragnDrop.unity
     guid: 6b87f4d771d8a1347b2d9c7e75af501f

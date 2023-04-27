@@ -9,8 +9,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
     Rigidbody2D rb;
     float dirX;
-    public float leftX = -12f;
-    public float rightX = 12F;
+    private float leftX = -12f;
+    private float rightX = 12F;
 
     // Start is called before the first frame update
     void Start() 

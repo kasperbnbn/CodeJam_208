@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -37,11 +38,12 @@ public class Level : MonoBehaviour
     public string tagName = "Pill";
     private void Update()
     {
+
         GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(tagName);
        
         if(taggedObjects.Length == 0)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(3);
         }
     }
 }

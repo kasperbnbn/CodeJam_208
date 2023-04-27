@@ -15,7 +15,7 @@ public class JigsawPuzzle : MonoBehaviour
     {
         if (puzzleComplete && Input.touchCount > Zero && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            SceneManager.LoadScene(0);
+           // SceneManager.LoadScene(3);
         }
     }
 
@@ -38,7 +38,7 @@ public class JigsawPuzzle : MonoBehaviour
         {
             puzzleComplete = true;
 
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameScene");
 
             Debug.Log("Puzzle complete!");
         }

@@ -56,7 +56,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
             if (numCorrect == FindObjectsOfType<DragAndDrop>().Length)
             {
                
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(3);
             }
         }
 
