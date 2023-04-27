@@ -23,8 +23,8 @@ public class JigsawPiece : MonoBehaviour
     // Shuffle the puzzle pieces randomly by rotating them
     private void Shuffle()
     {
-        float randomAngle = 90 * Random.Range(1, 4);
-        transform.Rotate(new Vector3(0f, 0f, randomAngle));
+        Vector3 randomAngle = new Vector3(0f,0f, 90 * Random.Range(1, 4));
+        transform.Rotate(randomAngle);
     }
 
     // Check for left mouse button click to rotate the piece and check if the puzzle is complete
@@ -32,7 +32,8 @@ public class JigsawPiece : MonoBehaviour
     {
         if (!jigsawPuzzle.puzzleComplete)
         {
-            transform.localRotation *= Quaternion.Euler(new Vector3(0f, 0f, -90f));
+            Vector3 Angle = new Vector3(0f, 0f, -90f);
+            transform.localRotation *= Quaternion.Euler((Angle));
             jigsawPuzzle.CheckPuzzleComplete();
         }
     }
