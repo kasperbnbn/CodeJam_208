@@ -5,14 +5,14 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Destroyer : MonoBehaviour
+public class Destroyer   : MonoBehaviour
 {
     private string previousSceneName;
     private static bool puzzle0Destroyed = false;
     private static bool puzzle1Destroyed = false;
     private static bool puzzle2Destroyed = false;
 
-    void Start()
+    void Awake()
     {
         //https://docs.unity3d.com/ScriptReference/SceneManagement.SceneManager-sceneLoaded.html
         previousSceneName = SceneManager.GetActiveScene().name;
