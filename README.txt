@@ -1,0 +1,10 @@
+SoundManager - Pernille
+bounce - Holger
+Level - Holger
+PlayerController - Holger
+DragAndDrop - Kasper
+Destroyer - Kasper
+JigwasPiece - Mathilde
+JigsawPuzzle - Mathilde
+Finish - Hafsteinn
+Sceneswitch - Hafsteinn
