@@ -8,11 +8,12 @@ public class JigsawPuzzle : MonoBehaviour
 
     // Flag to indicate if the puzzle is complete
     public bool puzzleComplete = false;
+    public int Zero = 0;
 
     // Check for touch input to load the next scene once the puzzle is complete
     private void Update()
     {
-        if (puzzleComplete && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
+        if (puzzleComplete && Input.touchCount > Zero && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             SceneManager.LoadScene(0);
         }

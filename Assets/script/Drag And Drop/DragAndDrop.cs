@@ -7,6 +7,9 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
     public RectTransform correctPosition;
     public float snapDistance = 10f;
 
+    public float Alp = .6f;
+    public float Alph = 1;
+
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
 
@@ -18,7 +21,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     public void OnBeginDrag(PointerEventData eventData)
     {
-        canvasGroup.alpha = .6f;
+        canvasGroup.alpha = Alp;
         canvasGroup.blocksRaycasts = true;
     }
 
@@ -29,7 +32,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        canvasGroup.alpha = 1f;
+        canvasGroup.alpha = Alph;
 
         // Calculate the distance between the dropped position and the correct position
         float distance = Vector2.Distance(rectTransform.anchoredPosition, correctPosition.anchoredPosition);
