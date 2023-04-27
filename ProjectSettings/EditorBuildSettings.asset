@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: e5c7f981451074a43a27d673370a2cb0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/DragnDrop.unity
     guid: 6b87f4d771d8a1347b2d9c7e75af501f
+  - enabled: 1
+    path: Assets/Scenes/WinScene.unity
+    guid: 5f7bb03c04bf8004fbb09b845b8bbf94
   m_configObjects: {}

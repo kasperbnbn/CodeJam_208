@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ball
   - Pill
+  - puzzle0
+  - puzzle1
+  - puzzle2
   layers:
   - Default
   - TransparentFX
