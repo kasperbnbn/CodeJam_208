@@ -4,6 +4,8 @@ using UnityEngine;
 using UnityEngine.UIElements;
 
 public class bounce : MonoBehaviour
+
+// most of the code is taken from; Breakout | Simple Game Tutorial Unity 2D for Beginners (https://www.youtube.com/watch?v=jyXZ3RVe5as&ab_channel=SilverlyBee)
 {
     public float minY = -5.5f;
     public GameObject Circle_;
@@ -28,11 +30,7 @@ public class bounce : MonoBehaviour
             transform.position = new Vector3(0, maxY, 0);
             rb.velocity = Vector3.zero;
 
-            // GameObject ball = GameObject.FindGameObjectWithTag("Ball");
-
-            //GameObject newCircle = Instantiate(Circle_, new Vector3(0, maxY, 0), Quaternion.identity);
-            // rb = newCircle.GetComponent<Rigidbody>();
-            // Destroy(ball);
+           
 
         }
         rb.velocity = Vector3.ClampMagnitude(rb.velocity, Velocity);

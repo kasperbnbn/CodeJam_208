@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
+// most of the code is taken from; Breakout | Simple Game Tutorial Unity 2D for Beginners (https://www.youtube.com/watch?v=jyXZ3RVe5as&ab_channel=SilverlyBee)
 {
 
     public Vector2Int size;
@@ -27,7 +28,7 @@ public class Level : MonoBehaviour
 
         }
     }
-
+    // wrote this code myself, it checks weather or not there are any GameObjects with the tag "Pill" if there arent any, it switches back to the main game scene. 
     public string tagName = "Pill";
     private void Update()
     {

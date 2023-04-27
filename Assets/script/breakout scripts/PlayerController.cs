@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
+
+// acceleration controll taken from "Unity Tutorial How Control And Move Gameobject With Accelerometer Or Gyroscope In Android Game." https://www.youtube.com/watch?v=wpSm2O2LIRM&ab_channel=AlexanderZotov
 {
     public float speed;
     Rigidbody2D rb;
