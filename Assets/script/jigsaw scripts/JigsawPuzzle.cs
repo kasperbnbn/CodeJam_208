@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class JigsawPuzzle : MonoBehaviour
 {
     // Name of the scene to load when the puzzle is complete
-    public string nextSceneName;
+   
 
     // Flag to indicate if the puzzle is complete
     public bool puzzleComplete = false;
@@ -14,7 +14,7 @@ public class JigsawPuzzle : MonoBehaviour
     {
         if (puzzleComplete && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
-            SceneManager.LoadScene(nextSceneName);
+            SceneManager.LoadScene(0);
         }
     }
 
@@ -37,7 +37,7 @@ public class JigsawPuzzle : MonoBehaviour
         {
             puzzleComplete = true;
 
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("GameScene");
 
             Debug.Log("Puzzle complete!");
         }

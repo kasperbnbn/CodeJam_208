@@ -933,7 +933,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b2316250c094e10b7f44739e0f0a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   nextSceneName: 0
+=======
+>>>>>>> Stashed changes
   puzzleComplete: 0
 --- !u!1 &650163225
 GameObject:
