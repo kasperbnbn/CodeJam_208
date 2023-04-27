@@ -628,7 +628,7 @@ RectTransform:
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.66412, y: 0.66412, z: 0.66412}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -873,8 +873,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 617297647}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.10699, y: 0.000000021037, z: 0}
-  m_LocalScale: {x: 1.062938, y: 1.062938, z: 1.062938}
+  m_LocalPosition: {x: 0.11577, y: -0.000000017275, z: 0}
+  m_LocalScale: {x: 1.1501989, y: 1.1501989, z: 1.1501989}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 457990863}
@@ -933,7 +933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37b2316250c094e10b7f44739e0f0a69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: 
+  nextSceneName: 0
   puzzleComplete: 0
 --- !u!1 &650163225
 GameObject:
