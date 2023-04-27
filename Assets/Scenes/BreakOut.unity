@@ -240,10 +240,10 @@ EdgeCollider2D:
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0
   m_Points:
-  - {x: -12.07, y: -1.91}
-  - {x: -12.04, y: 8.11}
-  - {x: 10.36, y: 8.08}
-  - {x: 10.32, y: -1.81}
+  - {x: -10.9, y: -1.91}
+  - {x: -10.9, y: 8.11}
+  - {x: 9.1, y: 8.08}
+  - {x: 9.1, y: -1.81}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73b5527330791b44a5cc97c8e3f8d8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  size: {x: 2, y: 2}
+  size: {x: 14, y: 6}
   Offset: {x: 1.43, y: 0.9}
   PillPrefap: {fileID: 4993439143338381692, guid: b1ee36d270e63b548a94cea1f83bd40c, type: 3}
   gradient:
