@@ -37,7 +37,7 @@ public class JigsawPuzzle : MonoBehaviour
         {
             puzzleComplete = true;
 
-            SceneManager.LoadScene("GameScene");
+            SceneManager.LoadScene(0);
 
             Debug.Log("Puzzle complete!");
         }
