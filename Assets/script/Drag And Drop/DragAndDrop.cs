@@ -12,24 +12,28 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
 
     private RectTransform rectTransform;
     private CanvasGroup canvasGroup;
-
+    //Gets the components
     private void Awake()
     {
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
     }
-
+    //https://docs.unity3d.com/2018.2/Documentation/ScriptReference/EventSystems.IDragHandler.html
+    //Method to start the drag
     public void OnBeginDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = Alp;
+        //Block other images, so you can drag over the images.
         canvasGroup.blocksRaycasts = true;
     }
 
+    //Method during the dragging
     public void OnDrag(PointerEventData eventData)
     {
         rectTransform.anchoredPosition += eventData.delta;
     }
 
+    //method for stopping the drag
     public void OnEndDrag(PointerEventData eventData)
     {
         canvasGroup.alpha = Alph;
@@ -38,11 +42,13 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
         float distance = Vector2.Distance(rectTransform.anchoredPosition, correctPosition.anchoredPosition);
 
         // If the distance is within the snap distance, snap the image to the correct position
+
+        //https://docs.unity3d.com/ScriptReference/RectTransform-anchoredPosition.html
         if (distance <= snapDistance)
         {
             rectTransform.anchoredPosition = correctPosition.anchoredPosition;
 
-            // Check if all images are in their correct position
+            // Check if all images are on the selected position
             int numCorrect = 0;
             foreach (DragAndDrop dnd in FindObjectsOfType<DragAndDrop>())
             {
@@ -52,7 +58,7 @@ public class DragAndDrop : MonoBehaviour, IDragHandler, IBeginDragHandler, IEndD
                 }
             }
 
-            // If all images are in their correct position, switch the scene
+            // Switches scene if all images are on their selceted spot.
             if (numCorrect == FindObjectsOfType<DragAndDrop>().Length)
             {
                
